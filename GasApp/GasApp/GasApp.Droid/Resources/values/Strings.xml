@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Gas App</string>
+  <string name="labelPedido">Informe a quantidade desejada:</string>
+  <string name="labelFooter">Tempo estimado de entrega de 30 a 60 minutos</string>
+  <string name="labelBot5kg">5Kg</string>
+  <string name="price5Kg">R$27,00</string>
+  <string name="labelBot8kg">8Kg</string>
+  <string name="price8Kg">R$37,00</string>
+  <string name="labelBot13kg">13Kg</string>
+  <string name="price13Kg">R$55,00</string>
+  <string name="backgroundDefault">#22B14C</string>
+</resources>

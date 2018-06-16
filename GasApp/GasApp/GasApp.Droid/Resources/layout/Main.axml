@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff">
+    <TextView
+        android:text="@string/labelPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbnQuantidade"
+        android:textColor="#7092BE"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botj8"
+            android:clickable="false"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="@string/labelBot5kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnBot5kg"
+            android:textColor="#01579B"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="15dp" />
+        <TextView
+            android:text="@string/price5Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnprice5kg"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="45dp"
+            android:paddingLeft="15dp"
+            android:textColor="#22B14C" />
+        <ImageView
+            android:src="@drawable/iconminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Minus"
+            android:clickable="false"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp" />
+        <ImageView
+            android:src="@drawable/iconplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Plus"
+            android:clickable="false"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp" />
+        <EditText
+            android:inputType="number"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#01579B"
+            android:textSize="20dp"
+            android:id="@+id/nr5kg"
+            android:layout_toLeftOf="@id/Plus"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="20dp"
+            android:clickable="false" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botj8"
+            android:clickable="false"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="@string/labelBot8kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnBot8kg"
+            android:textColor="#01579B"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="15dp" />
+        <TextView
+            android:text="@string/price8Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnprice8kg"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="45dp"
+            android:paddingLeft="15dp"
+            android:textColor="#22B14C" />
+        <ImageView
+            android:src="@drawable/iconminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Minus"
+            android:clickable="false"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp" />
+        <ImageView
+            android:src="@drawable/iconplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Plus"
+            android:clickable="false"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp" />
+        <EditText
+            android:inputType="number"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#01579B"
+            android:textSize="20dp"
+            android:id="@+id/nr8kg"
+            android:layout_toLeftOf="@id/Plus"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="20dp"
+            android:clickable="false" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botj8"
+            android:clickable="false"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="@string/labelBot13kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnBot13kg"
+            android:textColor="#01579B"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="15dp" />
+        <TextView
+            android:text="@string/price13Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnprice13kg"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="45dp"
+            android:paddingLeft="15dp"
+            android:textColor="#22B14C" />
+        <ImageView
+            android:src="@drawable/iconminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Minus"
+            android:clickable="false"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp" />
+        <ImageView
+            android:src="@drawable/iconplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Plus"
+            android:clickable="false"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp" />
+        <EditText
+            android:inputType="number"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#01579B"
+            android:textSize="20dp"
+            android:id="@+id/nr13kg"
+            android:layout_toLeftOf="@id/Plus"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="20dp"
+            android:clickable="false" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="@string/labelFooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbnQuantidade"
+            android:textColor="#7092BE"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <Button
+            android:text="Solicitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSolicitar"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#22B14C" />
+    </RelativeLayout>
+</LinearLayout>
