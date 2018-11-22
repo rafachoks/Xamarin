@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study22.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name:" />
+            <Entry x:Name="name" 
+                  Placeholder="Person Name" 
+                  Text="{Binding Name}" />
+            <Label Text="Age:" />
+            <Entry x:Name="age" 
+                  Placeholder="Person Age" 
+                  Text="{Binding Age}" />
+            <Label Text="Ocupation:" />
+            <Entry x:Name="occupation" 
+                  Placeholder="Person Occupation" 
+                  Text="{Binding Occupation}" />
+            <Button x:Name="button3"
+                    VerticalOptions="CenterAndExpand"
+                    Text="Go Tabs"
+                    Padding="5,5"
+                    BackgroundColor="DarkSlateBlue"
+                    TextColor="White"
+                    Clicked="Button3_OnClicked"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

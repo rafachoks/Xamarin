@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Study22.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Game" >
+        <Image Source="image.jpg" />
+    </ContentPage>
+    <ContentPage Title="User Name">
+        <StackLayout>
+            <Label Text="Name:" />
+            <Entry x:Name="name" 
+                   Placeholder="Person Name" 
+                   Text="{Binding Name}" />
+            <Label Text="Age:" />
+            <Entry x:Name="age" 
+                   Placeholder="Person Age" 
+                   Text="{Binding Age}" />
+            <Label Text="Ocupation:" />
+            <Entry x:Name="occupation" 
+                   Placeholder="Person Occupation" 
+                   Text="{Binding Occupation}" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Nav Page" >
+        <StackLayout>
+            <Button x:Name="button4" Text="Nav next page" Clicked="Button4_OnClicked"></Button>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
