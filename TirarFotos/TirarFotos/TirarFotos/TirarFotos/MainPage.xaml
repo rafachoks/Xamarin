@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TirarFotos"
+             x:Class="TirarFotos.MainPage"
+             x:Name="MainPage">
+    <StackLayout>
+        <StackLayout>
+            <Button  Text="Tirar Foto" x:Name="BotaoFoto" Command="{Binding Source={x:Reference MainPage}, Path=BindingContext.FotoCommand}"/>
+        </StackLayout>
+        <ListView x:Name="Fotos" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Image Grid.Row="0" Grid.Column="0" Source="{Binding .}"/>
+                            <Button Grid.Row="0" Grid.Column="1" Text="Deletar" CommandParameter="{Binding .}" Command="{Binding Source={x:Reference MainPage}, Path=BindingContext.DeletarCommand}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
